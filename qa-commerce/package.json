@@ -1,0 +1,24 @@
+{
+  "name": "qa-commerce",
+  "version": "1.0.0",
+  "description": "Projeto de simulação de aulas de QA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "db": "node scripts/init_db.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "open": "^11.0.0",
+    "sqlite3": "^5.1.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
